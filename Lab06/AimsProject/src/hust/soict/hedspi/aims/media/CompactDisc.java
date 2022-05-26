@@ -1,27 +1,30 @@
-package hust.soict.hedspi.aims.disc;
+package hust.soict.hedspi.aims.media;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-import hust.soict.hedspi.aims.media.Media;
-
-public class CompactDisc extends Disc{
+public class CompactDisc extends Media{
 	//private String ID;
 	private String artist;
-	
-	private List<Track> listOfTrack = new ArrayList<Track>();
-	
-	
-	
-	
-	
+	private String director;
+	private int length;
 	
 	public String getArtist() {
 		return artist;
 	}
 	public void setArtist(String artist) {
 		this.artist = artist;
+	}
+	public String getDirector() {
+		return director;
+	}
+	public void setDirector(String director) {
+		this.director = director;
+	}
+	public int getLength() {
+		return length;
+	}
+	public void setLength(int length) {
+		this.length = length;
 	}
 	
 	public CompactDisc() {
@@ -33,26 +36,6 @@ public class CompactDisc extends Disc{
 		this.artist=artist;
 		this.director=director;
 		this.length=length;
-	}
-	
-	public void addTrack(String title, int length) {
-		listOfTrack.add(new Track(title, length));
-	}
-	
-	public void addTrack(Track t) {
-		listOfTrack.add(t);
-	}
-	
-	public void removeTrack(Track t) {
-		listOfTrack.remove(t);
-	}
-	
-	public int getLength() {
-		int  length = 0; // sua toan bo lai thanh long
-		for (int i =0; i< listOfTrack.size(); i++) {
-			length += listOfTrack.get(i).getLength();
-		}
-		this.
 	}
 	
 	public Media inputInformation() {

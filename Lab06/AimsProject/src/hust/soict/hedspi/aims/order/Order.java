@@ -2,9 +2,9 @@ package hust.soict.hedspi.aims.order;
 import java.util.ArrayList;
 import java.util.List;
 
-import hust.soict.hedspi.aims.disc.CompactDisc;
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Book;
+import hust.soict.hedspi.aims.media.CompactDisc;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.utils.MyDate;
 

@@ -1,10 +1,8 @@
-package hust.soict.hedspi.aims.disc;
+package hust.soict.hedspi.aims.media;
 
 import java.util.Scanner;
 
-import hust.soict.hedspi.aims.media.Media;
-
-public class DigitalVideoDisc extends Disc{
+public class DigitalVideoDisc extends Media{
 
 	private String director;
 	private int length;

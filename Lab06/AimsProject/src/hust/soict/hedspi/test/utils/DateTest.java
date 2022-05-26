@@ -20,10 +20,10 @@ public class DateTest {
 		
 		//System.out.println(WordsToNumbersUtil.convertTextualNumbersInDocument("nineteen ninety nine"));
 		MyDate date4 = new MyDate("second", "April", "twenty nineteen");
-//		System.out.println(date4.print()); 			// February 29th 2020
-//		System.out.println(date4.printAnother1()); 	// d/M/yyyy
-//		date4.printAnother2();						// yyyy-MM-dd
-//		date4.printAnother3();						// mm-dd-yyyy
+		System.out.println(date4.print()); 			// February 29th 2020
+		System.out.println(date4.printAnother1()); 	// d/M/yyyy
+		date4.printAnother2();						// yyyy-MM-dd
+		date4.printAnother3();						// mm-dd-yyyy
 		
 		System.out.println(DateUtils.compareDate(date3, date4));
 		

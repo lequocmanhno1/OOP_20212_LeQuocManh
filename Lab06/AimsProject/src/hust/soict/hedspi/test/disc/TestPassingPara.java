@@ -1,5 +1,5 @@
 package hust.soict.hedspi.test.disc;
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 
 public class TestPassingPara {
 	public void swap(DigitalVideoDisc d1, DigitalVideoDisc d2) {
